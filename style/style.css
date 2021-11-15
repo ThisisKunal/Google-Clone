@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #555;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px 20px;
+    height: 60px;
+}
+ul{
+    list-style: none;
+    display:  flex;
+    align-content:  center;
+}
+li{
+    
+    padding: 14px 12px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    
+}
+li a:hover{
+    text-decoration: underline;
+}
+.menu-bg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: 20px;
+    margin-top: 5px;
+}
+.menu-button{
+    width: 15px;
+    height: 15px;
+}
+.menu-bg:hover{
+    margin-top: 5px;
+    background-color: rgba(100, 100,100, 0.1);
+    cursor: pointer;
+}
+.search-wrapper{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 580px;
+    height: 45px;
+    padding-left: 50px;
+    font-size: 1.2rem;
+    border-radius: 45px;
+    border: 1px solid #d3d3d3;
+}
+input:hover{
+    box-shadow: 0 1px 3px 1px rgba(201,201,201, 0.5)
+}
+input:focus {
+    outline: none;
+}
+.search{
+    width: 15px;
+    position: absolute; 
+    top :15px;
+    left: 25px;
+
+}
+.mic{
+  width: 15px;
+  position: absolute;
+  top: 12px;
+  right: 20px;
+}
+form{
+    position: relative;
+    margin-top: 30px;
+
+}
+button{
+    border: 1px solid transparent ;
+    padding: 8px 12px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+button:hover{
+    border: 1px soild #eee;
+    box-shadow: 0 0px 2px 1px rgba(189, 189,189, 0.5);
+    cursor: pointer;
+}
+.button{
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+   gap: 15px;
+}
+body{
+    height: 100vh;
+    overflow:  hidden;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction:  column;
+    justify-content: space-between;
+}
+footer{
+    width: 100%;
+    background-color: #f2f2f2;
+}
+.India
+{
+    
+    width: 100%;
+    padding: 15px 30px;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+    display: flex;
+    justify-content: Start;
+  
+}
+.last{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 18px;
+    padding-right: 20px;
+}
+.profile-pic{
+    border-radius: 50%;
+    width: 30px;
+    margin-top: 0px;
+    padding-bottom: 20;
+    
+}
+#profile:hover{
+    background-color: rgba(100, 100,100, 0.1);
+    border-radius: 50%;
+    cursor: pointer;
+}
+#profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: 20px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+.top{
+    margin-top: 11px;
+}
+
+#Lang{
+    display:  flex;
+    justify-content:  center;
+    font-family: arial,sans-serif;
+    line-height: 28px;
+    font-size: small;
+    
+    }
+    .languages{
+       margin-top:  10px;
+       margin-left: 10px;
+       margin-right: 10px;
+       font-size: small;
+      
+    }
+     #line
+     {
+        font-family: arial,sans-serif;  
+        margin-top: 20px ;
+        font-size: small;
+        margin-bottom: 32px;    
+     }
+     .languages a{
+        color: #1a0dab;
+        font-size: small;
+     }
+     #line a{
+        color: #1a0dab;
+        font-size: small;
+     }
+     .last a{
+        color: #70757a;
+     }
+     span{
+        color: #70757a;
+     }
+     
+
+
